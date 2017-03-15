@@ -7,7 +7,9 @@ As for the design itself, is based off of the ai.frame apollo recreational robot
 But the code is totally different.
 
 
-From my NASBOTS series: https://myevilgeniusblog.wordpress.com/2017/02/13/nasbots-1constructing/https
+From my NASBOTS series: https://myevilgeniusblog.wordpress.com/2017/02/13/nasbots-1constructing/
+
+
 I go over face tracking, servo calibration, sensors and a touch of a.i.
 
 
