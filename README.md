@@ -5,4 +5,10 @@ a little bit of everything i learned this past summer. i wanted to give my raspb
 As for the design itself, is based off of the ai.frame apollo recreational robot: https://www.kickstarter.com/projects/1619211863/aiframe-age-of-humanoid-robot
 
 But the code is totally different.
-From: https://myevilgeniusblog.wordpress.com/2017/02/13/nasbots-1constructing/https
+
+
+From my NASBOTS series: https://myevilgeniusblog.wordpress.com/2017/02/13/nasbots-1constructing/https
+I go over face tracking, servo calibration, sensors and a touch of a.i.
+
+
+Cheers!
