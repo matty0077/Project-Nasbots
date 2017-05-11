@@ -150,7 +150,7 @@ class FUCHI:
         
     def ra_rite():
         FUCHI.move(11,-55)
-#///////////////////////////////////////////////////////right leg 12 13 14 15
+#///////////////////////////////////////////////////////left leg 12 13 14 15
     def lhip_side():#////////////hip
         FUCHI.move(12, -55)
 
@@ -263,6 +263,29 @@ class FUCHI:
 #////////////////////////kicks
 #////////////////////////////////////////MOVEMENT
 #///////////////////////////walking
+    def left_step_one():#left leg up, right arm up
+        FUCHI.lknee_up()
+        FUCHI.lshin_bendup()
+        FUCHI.rf_midraise()
+        FUCHI.rite_midflex()
+        FUCHI.lb_midraise()
+        FUCHI.left_ext()
+
+    def left_step_two():#left leg down
+        FUCHI.relax(14)
+        FUCHI.relax(13)
+        
+    def rite_step_one():#left leg up, right arm up
+        FUCHI.rknee_up()
+        FUCHI.rshin_bendup()
+        FUCHI.lf_midraise()
+        FUCHI.left_midflex
+        FUCHI.rb_midraise()
+        FUCHI.rite_ext()
+
+    def rite_step_two():#left leg down
+        FUCHI.relax(9)
+        FUCHI.relax(10)
 #//////////////////////////jump
 #////////////////////////////split
     def split():
@@ -297,9 +320,25 @@ def face_targeting():
 #////////////////////////////
 #face_targeting()
 #FUCHI.relax(0)
-FUCHI.attention()
-'''time.sleep(.5)
-FUCHI.lf_midraise()
+'''FUCHI.attention()
+time.sleep(.5)
+FUCHI.left_step_one()
+time.sleep(.5)
+FUCHI.left_step_two()
+time.sleep(.5)
+FUCHI.rite_step_one()
+time.sleep(.5)
+FUCHI.rite_step_two()
+time.sleep(.5)
+FUCHI.left_step_one()
+time.sleep(.5)
+FUCHI.left_step_two()
+time.sleep(.5)
+FUCHI.rite_step_one()
+time.sleep(.5)
+FUCHI.rite_step_two()
+FUCHI.attention()'''
+'''FUCHI.lf_midraise()
 FUCHI.left_ext()'''
 '''warrior()
 time.sleep(.75)
