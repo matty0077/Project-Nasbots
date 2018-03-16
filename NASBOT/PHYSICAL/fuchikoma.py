@@ -259,8 +259,7 @@ class FUCHI:
         time.sleep(.55)
         rite_returner()
     
-#//////////////////////rite hook
-#////////////////////////kicks
+
 #////////////////////////////////////////MOVEMENT
 #///////////////////////////walking
     def left_step_one():#left leg up, right arm up
@@ -286,7 +285,7 @@ class FUCHI:
     def rite_step_two():#left leg down
         FUCHI.relax(9)
         FUCHI.relax(10)
-#//////////////////////////jump
+
 #////////////////////////////split
     def split():
         lside_raise()
@@ -302,24 +301,9 @@ class FUCHI:
         rknee_up()
         lshin_bend()
         rshin_bend()
-#////////////////////////////////////////GYRO
-    #omnidirection balance/standup
-#//////////////////////////////////////////opencv!!
-    #/////////////targeting/recognition
-def face_targeting():
-    import FaceTrack
-#////////////////////////////////////////voice rec
-#///////////////////////////////////////myo
-    #full left arm control 
-#//////////////////////////////////////button controls
-    #strafing
-    #walking fore/back
-    #manual aim/autoaim
-    #aim assist``lock on when captured in frame
-    #punch
+
 #////////////////////////////
-#face_targeting()
-#FUCHI.relax(0)
+
 '''FUCHI.attention()
 time.sleep(.5)
 FUCHI.left_step_one()
