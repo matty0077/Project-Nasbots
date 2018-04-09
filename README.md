@@ -5,6 +5,8 @@ Written in python3. Designed to be added onto(sensors, motors etc.)
 And can be used for any robot design that uses the hardware.
 
 
+See a vid of it in action: https://youtu.be/OHzC9ezx_DY
+
 
 
 From my NASBOTS series: https://sinistergenius.com/2017/02/13/nasbots-1constructing/
