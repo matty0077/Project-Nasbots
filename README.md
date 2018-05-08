@@ -13,6 +13,6 @@ From my NASBOTS series: https://sinistergenius.com/2017/02/13/nasbots-1construct
 
 
 
-
+join the University of Mad Science for personalized tutorials and group support. learn, show off and inspire: https://sinistergenius.com/join-the-university-of-mad-science/
 
 Cheers!
